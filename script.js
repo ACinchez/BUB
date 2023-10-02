@@ -18,4 +18,5 @@ const playButton = document.querySelector("#playButton");
 
 playButton.addEventListener("click", function() {
   audio.play();
+  playButton.style.display = "none"; // Hide the play button after clicking
 });
